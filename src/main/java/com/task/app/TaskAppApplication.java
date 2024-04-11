@@ -1,13 +1,15 @@
 package com.task.app;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TasksAppApplication {
+@EnableAutoConfiguration
+public class TaskAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TasksAppApplication.class, args);
+		SpringApplication.run(TaskAppApplication.class, args);
 	}
 
 }
